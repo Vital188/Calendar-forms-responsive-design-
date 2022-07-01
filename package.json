@@ -1,0 +1,13 @@
+{
+  "name": "39-group-figma-first-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "div": "dead-server --port=3999 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
