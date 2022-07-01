@@ -1,23 +1,83 @@
-.body {
+.container {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100%;
-   height: 906px;
+   display: flex;
 }
 
 .left {
-    width:100px;
-    display: flex;
-    flex-direction: column;
+    width: 100px;
+    display: grid;
+    grid-column: auto;
     background-color: #F7F6FF;
+    height: 100vh;
+    position: relative;
+}
+.logo {
+   position: absolute;
+   top: 52px;
+   left: 16px;
+}
+
+.line{
+    height: 5px;
+    background-color: #C4C4C4;
+    width: 62px;
+    position: absolute;
+    top: 110px;
+    left: 18px;
+}
+.vector {
+    position: absolute;
+    top: 158px;
+    left: 9px;
+    padding: 10px 30px;
+    background-color: #fff;
+}
+
+.vector:hover{
+    background-color: none;
+}
+.vector1 {
+    position: absolute;
+    top: 233px;
+    left: 37px;
+}
+
+.vector >a:hover{
+    background-color: none;
+    padding: 10px 30px;;
+}
+
+.vector2 {
+    position: absolute;
+    top: 292px;
+    left: 37px;;
+}
+
+.vector3 {
+    position: absolute;
+    top: 351px;
+    left: 30px;;
 }
 
 .right {
-    width: 1340px;
     background-color: #EBEEF5;
-    position:absolute;}
+    display: grid;
+    width: 93%;
+    position: relative;
+}
 
 .line2 {
-    position:relative;
-    height: 20px;
-    background-color:#02577A;
+    position: absolute;
+    height: 2px;
+    background-color: #02577A;
+    width: 346px;
+    top: 681px;
+    left: 447px;
+}
+
+.institute {
+    position: absolute;
+    width: 17.7%;
+    left: 510px;
+    top: 710px;  
 }

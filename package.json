@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "div": "dead-server --port=3999 --host=localhost",
+    "dev": "dead-server --port=3999 --host=localhost",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
