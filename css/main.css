@@ -33,7 +33,7 @@
     background-color: #fff;
 }
 
-.vector:hover{
+.vector >a:hover{
     background-color: none;
 }
 .vector1 {
@@ -42,10 +42,6 @@
     left: 37px;
 }
 
-.vector >a:hover{
-    background-color: none;
-    padding: 10px 30px;;
-}
 
 .vector2 {
     position: absolute;
