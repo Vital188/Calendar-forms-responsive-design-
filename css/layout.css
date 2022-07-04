@@ -21,29 +21,49 @@
     left: 18px;
 }
 .vectors {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     top: 158px;
     left: 9px;
-    padding: 10px 30px;
+    padding: 10px 120px 10px 30px;
     background-color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    gap: 50px;
 }
 
 .vector1 {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     top: 233px;
     left: 37px;
+    font-size: 16px;
+    text-decoration: none;
+    gap: 50px;
 }
 
 .vector2 {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     top: 292px;
-    left: 37px;;
+    left: 37px;
+    font-size: 16px;
+    text-decoration: none;
+    gap: 50px;
 }
 
 .vector3 {
+    display: flex;
+    flex-direction: row;
     position: absolute;
     top: 351px;
-    left: 30px;;
+    left: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    gap: 50px;
 }
 
 .right {
@@ -59,12 +79,12 @@
     background-color: #02577A;
     width: 346px;
     top: 681px;
-    left: 447px;
+    left: 547px;
 }
 
 .institute {
     position: absolute;
     width: 17.7%;
-    left: 510px;
+    left: 590px;
     top: 710px;  
 }
