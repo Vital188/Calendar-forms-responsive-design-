@@ -5,8 +5,9 @@
 
 .left:hover{
     width: 206px;
+    transition: 0.5s;
 }
 
-.line .left:hover {
-    width: 57px;
+.logo.left:hover > {
+    margin-left: 50px;
 }
