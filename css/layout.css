@@ -28,9 +28,15 @@
     left: 9px;
     padding: 10px 120px 10px 30px;
     background-color: #fff;
-    font-size: 16px;
+    gap: 30px;
+    align-items: center;
+}
+
+.vectors > a {
     text-decoration: none;
-    gap: 50px;
+    font-size: 18px;
+    color:#02577A;
+    font-family: 'Montserrat';
 }
 
 .vector1 {
@@ -39,9 +45,16 @@
     position: absolute;
     top: 233px;
     left: 37px;
-    font-size: 16px;
+    align-items: center;
     text-decoration: none;
-    gap: 50px;
+    gap: 30px;
+}
+
+.vector1 > a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#C4C4C4;
+    font-family: 'Montserrat';
 }
 
 .vector2 {
@@ -50,9 +63,15 @@
     position: absolute;
     top: 292px;
     left: 37px;
-    font-size: 16px;
+    align-items: center;
     text-decoration: none;
-    gap: 50px;
+    gap: 30px;
+}
+.vector2 > a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#C4C4C4;
+    font-family: 'Montserrat';
 }
 
 .vector3 {
@@ -61,9 +80,15 @@
     position: absolute;
     top: 351px;
     left: 30px;
-    font-size: 16px;
+    align-items: center;
     text-decoration: none;
-    gap: 50px;
+    gap: 23px;
+}
+.vector3 > a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#C4C4C4;
+    font-family: 'Montserrat';
 }
 
 .right {
