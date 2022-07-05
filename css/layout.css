@@ -28,8 +28,9 @@
     left: 9px;
     padding: 10px 120px 10px 30px;
     background-color: #fff;
-    gap: 30px;
+    gap: 37px;
     align-items: center;
+    border-radius: 25px 0px 0px 25px;
 }
 
 .vectors > a {
@@ -44,10 +45,12 @@
     flex-direction: row;
     position: absolute;
     top: 233px;
-    left: 37px;
+    left: 10px;
+    padding: 10px 120px 10px 30px;
     align-items: center;
     text-decoration: none;
-    gap: 30px;
+    gap: 37px;
+    border-radius: 25px 0px 0px 25px;
 }
 
 .vector1 > a {
@@ -56,16 +59,46 @@
     color:#C4C4C4;
     font-family: 'Montserrat';
 }
+.vectors:hover {
+    background:#F7F6FF ;
+}
+
+.vector1:hover {
+    background-color:#fff;
+    color: #02577A;
+}
+
+.vector1>a:hover {
+    color: #02577A;
+}
+
+.vector2:hover {
+    background-color:#fff;
+}
+
+.vector2>a:hover {
+    color: #02577A;
+}
+
+.vector3:hover {
+    background-color:#fff;
+}
+
+.vector3:hover>a:hover {
+    color: #02577A;
+}
 
 .vector2 {
     display: flex;
     flex-direction: row;
     position: absolute;
     top: 292px;
-    left: 37px;
+    left: 10px;
+    padding: 10px 120px 10px 30px;
     align-items: center;
     text-decoration: none;
-    gap: 30px;
+    gap: 37px;
+    border-radius: 25px 0px 0px 25px;
 }
 .vector2 > a {
     text-decoration: none;
@@ -79,10 +112,12 @@
     flex-direction: row;
     position: absolute;
     top: 351px;
-    left: 30px;
+    left: 4px;
+    padding: 10px 120px 10px 30px;
     align-items: center;
     text-decoration: none;
-    gap: 23px;
+    gap: 30px;
+    border-radius: 25px 0px 0px 25px;
 }
 .vector3 > a {
     text-decoration: none;
