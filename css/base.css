@@ -4,10 +4,17 @@
 }
 
 .left:hover{
-    width: 206px;
+        width: 206px;
+        transition: 0.5s;
+}
+
+.left:hover p {
+    width: 128px;
+    margin-left: 16px;
     transition: 0.5s;
 }
 
-.logo.left:hover > {
+.left:hover .logo {
     margin-left: 50px;
+    transition: 0.5s;
 }
