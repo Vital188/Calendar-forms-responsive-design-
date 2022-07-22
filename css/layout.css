@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
 .left {
     width: 100px;
     display: grid;
     grid-column: auto;
     background-color: #F7F6FF;
     height: 100vh;
-    position: relative;
+    position: fixed;
+    overflow: hidden;
 }
 
 .logo {
@@ -38,7 +42,7 @@
     text-decoration: none;
     font-size: 16px;
     color:#02577A;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .vector1 {
@@ -60,6 +64,7 @@
     color:#C4C4C4;
     font-family: 'Montserrat';
 }
+
 .vectors:hover {
     background:#F7F6FF ;
 }
@@ -106,6 +111,7 @@
     font-size: 16px;
     color:#C4C4C4;
     font-family: 'Montserrat';
+    font-weight: 500;
 }
 
 .vector3 {
@@ -133,8 +139,13 @@
     grid-column: 2;
     grid-template-columns: 1fr 1fr;
     grid-row: 4;
-    grid-template-rows: 1fr 2fr 1fr 0.5fr;
+    grid-template-rows: 1.8fr 1.8fr 1fr 0.5fr;
     width: 100%;
+    margin-left: 100px;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+    font-family: "Montserrat", sans-serif;;
 }
 .right > .name {
  justify-content: center;
@@ -142,28 +153,61 @@
  grid-column: 1/2;
  grid-row: 1/2;
  font-size: 40px;
+ padding: 10px 200px;
+ text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 44px;
 }
 
 .right > .paragraf {
-    justify-content: center;
-    align-items: center;
     grid-column: 2/3;
     grid-row: 1/2;
-    padding: 10px 30px;
-   }
-
-.line2 {
-    height: 2px;
-    background-color: #02577A;
-    width: 346px;
-    top: 681px;
-    left: 547px;
+    padding: 22px 96px;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
 }
 
-.institute {
-    position: absolute;
-    width: 17.7%;
-    left: 590px;
-    top: 710px;
-    color: #02577A;
+.right > .paragraf > .time {
+color: #02577A
+}
+.right > .paragraf > .date {
+    font-size: 24px;
+}
+
+.right > .main {
+grid-column: 1/ span 3;
+grid-row: 2/3;
+width: 100%;
+height: 360px;
+}
+
+.right > .text2 {
+grid-column: 1/ span 3;
+grid-row: 3/4;
+padding: 30px 190px;
+border-radius: 25px;
+border: 2px solid #02577A;
+font-size: 16px;
+}
+
+.right > .line2 {
+height: 2px;
+background-color: #02577A;
+width: 346px;
+grid-column: 1/ span 3;
+grid-row: 4/5;
+position: absolute;
+top: 700px;
+}
+
+.right > .institute {
+grid-column: 1/ span 3;
+grid-row: 4/5;
+color: black;
+position: relative;
 }
