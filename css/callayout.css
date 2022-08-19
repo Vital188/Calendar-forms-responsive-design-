@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.left {
+    width: 100px;
+    display: grid;
+    grid-column: auto;
+    background-color: #F7F6FF;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+}
+
+.logo {
+   position: absolute;
+   top: 52px;
+   left: 16px;
+}
+
+.line{
+    height: 3px;
+    background-color: #C4C4C4;
+    width: 62px;
+    position: absolute;
+    top: 110px;
+    left: 18px;
+}
+
+.vectors {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 158px;
+    left: 9px;
+    padding: 10px 120px 10px 30px;
+    background-color: #fff;
+    gap: 37px;
+    align-items: center;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.vectors > a {
+    text-decoration: none;
+    font-size: 16px;
+    color:#02577A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vector1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 233px;
+    left: 10px;
+    padding: 10px 120px 10px 30px;
+    align-items: center;
+    text-decoration: none;
+    gap: 37px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.vector1 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color:#C4C4C4;
+    font-family: 'Montserrat';
+}
+
+.vectors:hover {
+    background:#F7F6FF ;
+}
+
+.vector1:hover {
+    background-color:#fff;
+    color: #02577A;
+}
+
+.vector1>a:hover {
+    color: #02577A;
+}
+
+.vector2:hover {
+    background-color:#fff;
+}
+
+.vector2>a:hover {
+    color: #02577A;
+}
+
+.vector3:hover {
+    background-color:#fff;
+}
+
+.vector3:hover>a:hover {
+    color: #02577A;
+}
+
+.vector2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 292px;
+    left: 10px;
+    padding: 10px 120px 10px 30px;
+    align-items: center;
+    text-decoration: none;
+    gap: 37px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.vector2 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color:#C4C4C4;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.vector3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 351px;
+    left: 4px;
+    padding: 10px 120px 10px 30px;
+    align-items: center;
+    text-decoration: none;
+    gap: 30px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.vector3 > a {
+    text-decoration: none;
+    font-size: 16px;
+    color:#C4C4C4;
+    font-family: 'Montserrat';
+}
+
+.right {
+display:flex;
+flex-wrap: wrap;
+width: calc(100% - 100px);
+margin-left: 100px;
+justify-content: space-around;
+margin-top: 60px;
+}
+
+.leftpart {
+    width: 576px;
+    height: 576px;
+    display: flex;
+    gap: 49px;
+    flex-wrap: wrap;
+}
+
+.first, .second, .third {
+    width: 576px;
+    height: 159px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding-left: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.parag {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 11px;
+}
+
+.desc {
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #C4C4C4;
+    margin-bottom: 24px;
+}
+
+.line4, .line5, .line6 {
+    width: 188px;
+    height: 20px;
+    background-color: #FC0000;
+    border-radius: 25px;
+}
+
+.line5 {
+    background-color: #FCE300;
+}
+
+.line6 {
+    background-color: #51FC00;
+}
+
+.rightpart {
+    width: 576px;
+    height: 576px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+     display: flex;
+    flex-direction: column;
+}
+
+/* .month {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px; 
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.prev {
+}
+
+.weekdays {
+    display: flex;
+    flex-direction: row;
+}
+
+.days {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 18px;
+   
+} */
+
+.month {
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 29px;
+    line-height: 29px;
+    font-weight: 700;
+    justify-content: space-evenly;
+    margin-top: 38px;
+    align-content: stretch;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Month list */
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mon {
+    color: black;
+    font-size: 24px;
+    letter-spacing: 3px;
+    padding: 0 26px;
+  }
+  
+  /* Previous button inside month header */
+  .month .prev {
+    font-size: 40px;
+  }
+  
+  /* Next button */
+  .month .next {
+   font-size:40px;
+  }
+  
+  /* Weekdays (Mon-Sun) */
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    color: #C4C4C4;
+    text-align: center;
+    padding-left: 20px;
+  }
+  
+  .line7 {
+    width: 188px;
+    height: 2px;
+    background-color: #C4C4C4;
+    width: 486px;
+    margin-left: 44px;
+    margin-top: 18px;
+    margin-bottom: 13px;
+  }
+  /* Days (1-31) */
+  .days {
+    padding: 0px 10px;
+    margin: 0 27px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    justify-items: center;
+    align-items: center;
+  }
+  
+ .black {
+    padding-top: 20px;
+    /* list-style-type: none;
+    display: inline-block; */
+    /* font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: black; */
+    /* padding: 0 20px; */
+  }
+
+  .grey {
+    color: gray;  
+    padding-top: 20px;
+  }
+  
+  /* Highlight the "current" day */
+  .days .black .active {
+    padding: 5px 10px;
+    width: 52px;
+    height: 52px;
+    background: #245677;
+    border-radius: 50%;
+    color: white !important
+  }
+
+.footer2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.footer2 > .line2 {
+    height: 2px;
+    background-color: #02577A;
+    width: 346px;
+    
+
+}
+
+.footer2 > .institute {
+
+}
+
+@media (max-width: 600px) {
+.right {
+grid-row: 5;
+grid-template-rows: 1fr 0.5fr 1fr 0.5fr 1fr;
+grid-column: 1;
+grid-template-columns: 1fr;
+    }
+}
+
+.right > .line2 {
+
+}
+.right > .institute {
+
+}
+
