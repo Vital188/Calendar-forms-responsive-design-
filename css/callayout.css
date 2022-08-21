@@ -141,7 +141,7 @@ display:flex;
 flex-wrap: wrap;
 width: calc(100% - 100px);
 margin-left: 100px;
-justify-content: space-around;
+justify-content: space-evenly;
 margin-top: 60px;
 }
 
@@ -151,6 +151,61 @@ margin-top: 60px;
     display: flex;
     gap: 49px;
     flex-wrap: wrap;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+    margin-top: 25px;
+}
+
+.dot2 {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+    margin-top: 25px;
+}
+
+.dot3 {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+    margin-top: 25px;
+}
+
+.dots {
+    display: flex;
+    margin-left: -131px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots2 {
+    display: flex;
+    margin-left: -131px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots3 {
+    display: flex;
+    margin-left: -130px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 .first, .second, .third {
@@ -170,7 +225,24 @@ margin-top: 60px;
     font-weight: 700;
     line-height: 32px;
     padding-top: 11px;
+    margin-right: 320px;
 }
+
+.parag2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 11px;
+    margin-right: 294px;
+}
+.parag3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 11px;
+    margin-right: 333px;
+}
+
 
 .desc {
     padding-bottom: 13px;
@@ -352,23 +424,20 @@ margin-top: 60px;
 
 }
 
-.footer2 > .institute {
 
-}
-
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 .right {
 grid-row: 5;
 grid-template-rows: 1fr 0.5fr 1fr 0.5fr 1fr;
 grid-column: 1;
 grid-template-columns: 1fr;
     }
-}
+} */
 
-.right > .line2 {
 
-}
-.right > .institute {
-
+.institute {
+ color:   black;
+ font-size: 16px;
+ padding-top: 5px;
 }
 
