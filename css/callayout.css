@@ -144,8 +144,17 @@ margin-left: 100px;
 justify-content: space-evenly;
 margin-top: 60px;
 }
+ 
+@media (max-width: 600px) {
+    .container > .right  {
+        width: 60%;
+        margin-left: 100px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+} 
 
-.leftpart {
+.right > .leftpart {
     width: 576px;
     height: 576px;
     display: flex;
@@ -153,7 +162,14 @@ margin-top: 60px;
     flex-wrap: wrap;
 }
 
-.dot {
+@media (max-width: 600px) {
+    .container > .right > .leftpart  {
+        width: 400px;
+        margin-left: 100px;
+    }
+} 
+
+ .dot {
     height: 5px;
     width: 5px;
     background-color: black;
@@ -163,7 +179,7 @@ margin-top: 60px;
     margin-top: 25px;
 }
 
-.dot2 {
+ .dot2 {
     height: 5px;
     width: 5px;
     background-color: black;
@@ -183,7 +199,7 @@ margin-top: 60px;
     margin-top: 25px;
 }
 
-.dots {
+ .dots {
     display: flex;
     margin-left: -131px;
     margin-top: 5px;
@@ -199,7 +215,7 @@ margin-top: 60px;
     align-items: center;
 }
 
-.dots3 {
+ .dots3 {
     display: flex;
     margin-left: -130px;
     margin-top: 5px;
@@ -316,12 +332,12 @@ margin-top: 60px;
   }
   
   /* Month list */
-  .month ul {
+.month ul {
     margin: 0;
     padding: 0;
   }
   
-  .mon {
+.mon {
     color: black;
     font-size: 24px;
     letter-spacing: 3px;
@@ -329,12 +345,12 @@ margin-top: 60px;
   }
   
   /* Previous button inside month header */
-  .month .prev {
+.month .prev {
     font-size: 40px;
   }
   
   /* Next button */
-  .month .next {
+.month .next {
    font-size:40px;
   }
   
@@ -349,14 +365,14 @@ margin-top: 60px;
     padding-left: 30px;
   }
   
-  .weekdays li {
+.weekdays li {
     display: inline-block;
     color: #C4C4C4;
     text-align: center;
     padding-left: 20px;
   }
   
-  .line7 {
+ .line7 {
     width: 188px;
     height: 2px;
     background-color: #C4C4C4;
@@ -366,7 +382,7 @@ margin-top: 60px;
     margin-bottom: 13px;
   }
   /* Days (1-31) */
-  .days {
+.days {
     padding: 0px 10px;
     margin: 0 27px;
     display: grid;
@@ -394,13 +410,12 @@ margin-top: 60px;
     /* padding: 0 20px; */
   }
 
-  .grey {
+.grey {
     color: gray;  
     padding-top: 20px;
   }
   
-  /* Highlight the "current" day */
-  .days .black .active {
+.days .black .active {
     padding: 5px 10px;
     width: 52px;
     height: 52px;
@@ -409,7 +424,7 @@ margin-top: 60px;
     color: white !important
   }
 
-.footer2 {
+ .footer2 {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
@@ -420,8 +435,6 @@ margin-top: 60px;
     height: 2px;
     background-color: #02577A;
     width: 346px;
-    
-
 }
 
 
